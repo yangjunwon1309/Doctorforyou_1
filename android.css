@@ -40,12 +40,12 @@ body {
   text-decoration: none;
 }
 
-#utility ulli:first-child a {    /* 조건/지정을 하여 css 설정을 먹히게 할 수 있는 슈도 클래스 중 하나 여기에서 first-child는 첫번쨰 리스트, last-child는 마지막 리스트에 각각 적용되도록 한 것이다. */
+#utility ulli:first-child ul a {    /* 조건/지정을 하여 css 설정을 먹히게 할 수 있는 슈도 클래스 중 하나 여기에서 first-child는 첫번쨰 리스트, last-child는 마지막 리스트에 각각 적용되도록 한 것이다. */
     -webkit-border-top-left-radius: 8px;
     -webkit-border-top-right-radius: 8px;
 }
 
-#utility ulli:last-child a {
+#utility ulli:last-child ul a {
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
 }
