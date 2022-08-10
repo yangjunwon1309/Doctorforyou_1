@@ -21,6 +21,16 @@ body {
   text-decoration: none;
 }
 
+#header ulli:first-child a {    /* 조건/지정을 하여 css 설정을 먹히게 할 수 있는 슈도 클래스 중 하나 여기에서 first-child는 첫번쨰 리스트, last-child는 마지막 리스트에 각각 적용되도록 한 것이다. */
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+#header ulli:last-child a {
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}1
+
 #utility ul {
   list-style: none;
   margin: 0;
@@ -34,7 +44,7 @@ body {
   display: block;
   font-size: 13px;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: -1px;
   padding: 8px 6px;
   text-decoration: none;
 }
