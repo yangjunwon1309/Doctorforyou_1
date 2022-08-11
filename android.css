@@ -23,7 +23,7 @@ body {
 
 #home {
     position: absolute; /* 해당 요소 위치를 좌표계로 설정하겟다!!*/
-    top: 7px;
+    top: 8px;
     left: 6px;
     height: 30px;
     font-weight: bold;
