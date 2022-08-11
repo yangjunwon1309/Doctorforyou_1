@@ -36,8 +36,8 @@ body {
     /* -webkit-border-image: url(images/buttons.png) 0 8 0 8; 모서리 이미지 설정?*/
 }
 
-#home div.pressed {
-  background-color: rgb(100,100,100);
+#home .pressed {
+  background-color: rgb(0,0,0);
 }
 
 #utility ul {
