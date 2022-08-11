@@ -22,23 +22,32 @@ body {
 }
 
 #home {
-    position: absoulte; /* 해당 요소 위치를 좌표계로 설정하겟다!!*/
+    position: absolute; /* 해당 요소 위치를 좌표계로 설정하겟다!!*/
     top: 7px;
     left: 6px;
     height: 30px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     color: white;
     line-height: 28px;
-    border-width: 0 8px 0 8px; /* 상단 부분부터 시계 방향으로 모서리 두꼐 설정 */
+    border-width: 0 8px 0 8px;
+    background-Color: rgb(255,255,255); /* 상단 부분부터 시계 방향으로 모서리 두꼐 설정 */
+    /* -webkit-border-image: url(images/buttons.png) 0 8 0 8; 모서리 이미지 설정?*/
+}
 
+#home div.preesed {
+  background-color: rgb(100,100,100);
 }
 
 #utility ul {
   list-style: none;
   margin: 10px;
   padding: 0;
+}
+
+#utility ul.hide {
+    display: none;
 }
 
 #utility ul a {
